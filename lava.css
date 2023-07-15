@@ -1,0 +1,38 @@
+.title h1{
+    margin-top: 5rem;
+    text-align: center;
+    color: #400E32;
+    font-size: 4rem;
+    text-decoration: underline;
+    font-style: italic;
+    text-shadow: black;
+    
+}
+
+#flav1{
+    
+    background-image: url(lava1.jpg);
+    background-size: cover;
+}
+#flav2{
+    background-image: url(lava2.jpg);
+    background-size: cover;
+}
+
+#flav3{
+    background-image: url(lava3.jpg);
+    background-size: cover;
+}
+
+#flav4{
+    background-image: url(lava4.jpg);
+    background-size: cover;
+}
+
+#back{
+    margin-left: 46rem;
+}
+
+#back i{
+    font-size: 0.8rem;
+}

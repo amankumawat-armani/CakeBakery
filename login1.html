@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="login.css">
+    <title>Login page in HTML</title>
+
+</head>
+<body>
+    <h2><br></h2>
+    <form><div class="h">
+        <a href="index.html"><i class="fa-solid fa-angle-left"></i>Home</a></div>
+        <!-- Headings for the form -->
+        <div class="headingsContainer">
+            <h1>Cake Bakery</h1>
+        </div>
+
+        <!-- Main container for all inputs -->
+        <div class="mainContainer">
+            <!-- Username -->
+            <label for="username">Your username</label>
+            <input type="text" placeholder="Enter Username" name="username" required>
+
+            <br><br>
+
+            <!-- Password -->
+            <label for="pswrd">Your password</label>
+            <input type="password" placeholder="Enter Password , white " name="pswrd" required>
+
+            <!-- sub container for the checkbox and forgot password link -->
+            <div class="subcontainer">
+                <label>
+                  <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+                <p class="forgotpsd"> <a href="#">Forgot Password?</a></p>
+            </div>
+
+
+            <!-- Submit button -->
+            <button type="submit">Login</button>
+
+            <!-- Sign up link -->
+            <p class="register">Not a member?  <a href="#">Register here!</a></p>
+
+        </div>
+
+    </form>
+</body>
+</html>

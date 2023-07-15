@@ -1,0 +1,38 @@
+.title h1{
+    margin-top: 5rem;
+    text-align: center;
+    color: #cb9713;
+    font-size: 4rem;
+    text-decoration: underline;
+    font-style: italic;
+    text-shadow: black;
+    
+}
+
+#flav1{
+    
+    background-image: url(bs1.jpg);
+    background-size: cover;
+}
+#flav2{
+    background-image: url(bs2.jpg);
+    background-size: cover;
+}
+
+#flav3{
+    background-image: url(bs3.jpg);
+    background-size: cover;
+}
+
+#flav4{
+    background-image: url(bs4.jpg);
+    background-size: cover;
+}
+
+#back{
+    margin-left: 46rem;
+}
+
+#back i{
+    font-size: 0.8rem;
+}
